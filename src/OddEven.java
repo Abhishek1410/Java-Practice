@@ -11,5 +11,8 @@ public class OddEven {
         else {
             System.out.println("Number is odd");
         }
+        int x = 4;
+        String test = (x < 10) ? "Small" : "big";
+        System.out.println(test);
     }
 }
